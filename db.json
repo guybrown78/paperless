@@ -1,7 +1,55 @@
 {
+	"courses":[
+		{
+			"id":1,
+			"code":"CS_001",
+			"name":"Course Name",
+			"startDate":"2020-03-23T09:00:00.000Z",
+			"state":"live",
+			"duration":{
+				"days":3,
+				"hours":null
+			},
+			"delegateCount":5,
+			"delegates":[
+				102010, 102020, 102040, 102060, 102070
+			]
+		},
+		{
+			"id":2,
+			"code":"CS_020",
+			"name":"Course Name",
+			"startDate":"2020-03-23T09:30:00.000Z",
+			"state":"live",
+			"duration":{
+				"days":2,
+				"hours":null
+			},
+			"delegateCount":7,
+			"delegates":[
+				102010, 102020, 102030, 102040, 102050, 102060, 102070
+			]
+		},
+		{
+			"id":3,
+			"code":"CS_300",
+			"name":"Course Name",
+			"startDate":"2020-03-25T09:30:00.000Z",
+			"state":"live",
+			"duration":{
+				"days":1,
+				"hours":null
+			},
+			"delegateCount":6,
+			"delegates":[
+				102020, 102030, 102040, 102050, 102060, 102070
+			]
+		}
+	],
 	"delegates": [ 
 	{ 
 		"id":1,
+		"number":102010,
 		"name":"Leanne Graham",
 		"email":"Sincere@april.biz",
 		"attendedAM":false,
@@ -9,6 +57,7 @@
 	},
 	{ 
 		"id":2,
+		"number":102020,
 		"name":"Ervin Howell",
 		"email":"Shanna@melissa.tv",
 		"attendedAM":false,
@@ -16,6 +65,7 @@
 	},
 	{ 
 		"id":3,
+		"number":102030,
 		"name":"Clementine Bauch",
 		"email":"Nathan@yesenia.net",
 		"attendedAM":false,
@@ -23,6 +73,7 @@
 	},
 	{ 
 		"id":4,
+		"number":102040,
 		"name":"Patricia Lebsack",
 		"email":"Julianne.OConner@kory.org",
 		"attendedAM":false,
@@ -30,11 +81,27 @@
 	},
 	{ 
 		"id":5,
+		"number":102050,
 		"name":"Chelsey Dietrich",
 		"email":"Lucio_Hettinger@annie.ca",
 		"attendedAM":false,
 		"attendedPM":false
+	},
+	{ 
+		"id":6,
+		"number":102060,
+		"name":"Cherryl Morris",
+		"email":"cmorris@mee.com",
+		"attendedAM":false,
+		"attendedPM":false
+	},
+	{ 
+		"id":7,
+		"number":102070,
+		"name":"Ben Smith",
+		"email":"ben.smith@cf.us",
+		"attendedAM":false,
+		"attendedPM":false
 	}
-
 ]
 }
