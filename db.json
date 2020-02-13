@@ -3,27 +3,37 @@
 	{ 
 		"id":1,
 		"name":"Leanne Graham",
-		"email":"Sincere@april.biz"
+		"email":"Sincere@april.biz",
+		"attendedAM":false,
+		"attendedPM":false
 	},
 	{ 
 		"id":2,
 		"name":"Ervin Howell",
-		"email":"Shanna@melissa.tv"
+		"email":"Shanna@melissa.tv",
+		"attendedAM":false,
+		"attendedPM":false
 	},
 	{ 
 		"id":3,
 		"name":"Clementine Bauch",
-		"email":"Nathan@yesenia.net"
+		"email":"Nathan@yesenia.net",
+		"attendedAM":false,
+		"attendedPM":false
 	},
 	{ 
 		"id":4,
 		"name":"Patricia Lebsack",
-		"email":"Julianne.OConner@kory.org"
+		"email":"Julianne.OConner@kory.org",
+		"attendedAM":false,
+		"attendedPM":false
 	},
 	{ 
 		"id":5,
 		"name":"Chelsey Dietrich",
-		"email":"Lucio_Hettinger@annie.ca"
+		"email":"Lucio_Hettinger@annie.ca",
+		"attendedAM":false,
+		"attendedPM":false
 	}
 
 ]
