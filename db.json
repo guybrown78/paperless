@@ -1,50 +1,5 @@
 {
-	"courses/CS_001/delegates":{
-		"count":5,
-		"delegateIds":[10, 20, 40, 60, 70],
-		"attendances":[
-			{
-				"day":1,
-				"registrationComplete":false,
-				"attendees":[
-					{
-						"delegateIds":10,
-						"am":false,
-						"pm":false
-					}
-				]
-			},
-			{
-				"day":2,
-				"registrationComplete":false,
-				"attendees":[
-					{
-						"delegateNumber":0,
-						"am":false,
-						"pm":false
-					}
-				]
-			}
-		],
-		"feedback":[
-			{
-				"delegate":{
-					"id":0
-				},
-				"questions":[
-					{
-						"id":1,
-						"score":0
-					},
-					{
-						"id":2,
-						"score":0
-					}
-				],
-				"message":""
-			}
-		]
-	},
+
 	"courses":[
 		{
 			"id":1,
@@ -60,7 +15,49 @@
 			"registrationRule":"am-pm",
 			"delegates":{
 				"count":5,
-				"delegateIds":[10, 20, 40, 60, 70]
+				"delegateIds":[10, 20, 40, 60, 70],
+				"attendances":[
+					{
+						"day":1,
+						"registrationComplete":false,
+						"attendees":[
+							{
+								"delegateIds":10,
+								"am":false,
+								"pm":false
+							}
+						]
+					},
+					{
+						"day":2,
+						"registrationComplete":false,
+						"attendees":[
+							{
+								"delegateNumber":0,
+								"am":false,
+								"pm":false
+							}
+						]
+					}
+				],
+				"feedback":[
+					{
+						"delegate":{
+							"id":0
+						},
+						"questions":[
+							{
+								"id":1,
+								"score":0
+							},
+							{
+								"id":2,
+								"score":0
+							}
+						],
+						"message":""
+					}
+				]
 			}
 		},
 		{
