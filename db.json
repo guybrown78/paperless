@@ -1,19 +1,67 @@
 {
+	"courses/CS_001/delegates":{
+		"count":5,
+		"delegateIds":[10, 20, 40, 60, 70],
+		"attendances":[
+			{
+				"day":1,
+				"registrationComplete":false,
+				"attendees":[
+					{
+						"delegateIds":10,
+						"am":false,
+						"pm":false
+					}
+				]
+			},
+			{
+				"day":2,
+				"registrationComplete":false,
+				"attendees":[
+					{
+						"delegateNumber":0,
+						"am":false,
+						"pm":false
+					}
+				]
+			}
+		],
+		"feedback":[
+			{
+				"delegate":{
+					"id":0
+				},
+				"questions":[
+					{
+						"id":1,
+						"score":0
+					},
+					{
+						"id":2,
+						"score":0
+					}
+				],
+				"message":""
+			}
+		]
+	},
 	"courses":[
 		{
 			"id":1,
 			"code":"CS_001",
 			"name":"Course Name",
-			"startDate":"2020-03-23T09:00:00.000Z",
+			"startDate":"2020-03-22T09:00:00.000Z",
 			"state":"live",
 			"duration":{
+				"currentDay":2,
 				"days":3,
 				"hours":null
 			},
-			"delegateCount":5,
-			"delegates":[
-				102010, 102020, 102040, 102060, 102070
-			]
+			"registrationRule":"am-pm",
+			"delegates":{
+				"count":5,
+				"delegateIds":[10, 20, 40, 60, 70]
+			}
 		},
 		{
 			"id":2,
@@ -22,68 +70,104 @@
 			"startDate":"2020-03-23T09:30:00.000Z",
 			"state":"live",
 			"duration":{
+				"currentDay":0,
 				"days":2,
 				"hours":null
 			},
-			"delegateCount":7,
-			"delegates":[
-				102010, 102020, 102030, 102040, 102050, 102060, 102070
-			]
+			"registrationRule":"am-pm",
+			"delegates":{
+				"count":7,
+				"delegateIds":[10, 20, 30, 40, 50, 60, 70]
+			}
 		},
 		{
-			"id":3,
-			"code":"CS_300",
+			"id": 3,
+			"code": "CS_300",
+			"name": "Course Name",
+			"startDate": "2020-03-25T09:30:00.000Z",
+			"state": "live",
+			"duration":{
+				"currentDay":0,
+				"days":0.5,
+				"hours":4.5
+			},
+			"registrationRule":"am",
+			"delegates":{
+				"count":5,
+				"delegateIds":[20,30,40,60,70]
+			}
+		},
+		{
+			"id":4,
+			"code":"CS_444",
 			"name":"Course Name",
-			"startDate":"2020-03-25T09:30:00.000Z",
+			"startDate":"2020-03-24T08:45:00.000Z",
 			"state":"live",
 			"duration":{
+				"currentDay":0,
 				"days":1,
 				"hours":null
 			},
-			"delegateCount":6,
-			"delegates":[
-				102020, 102030, 102040, 102050, 102060, 102070
-			]
+			"registrationRule":"allday",
+			"delegates":{
+				"count":0,
+				"delegateIds":[]
+			}
 		}
 	],
 	"delegates": [ 
 	{ 
-		"id":1,
+		"id":10,
 		"number":102010,
 		"name":"Leanne Graham",
 		"email":"Sincere@april.biz",
+		"dateOfBirth":"1981-02-15",
+		"courses":["CS_001","CS_020"],
+		"attended":false,
 		"attendedAM":false,
 		"attendedPM":false
 	},
 	{ 
-		"id":2,
+		"id":20,
 		"number":102020,
 		"name":"Ervin Howell",
 		"email":"Shanna@melissa.tv",
+		"dateOfBirth":"1978-05-24",
+		"courses":["CS_001","CS_020","CS_300"],
+		"attended":false,
 		"attendedAM":false,
 		"attendedPM":false
 	},
 	{ 
-		"id":3,
+		"id":30,
 		"number":102030,
 		"name":"Clementine Bauch",
 		"email":"Nathan@yesenia.net",
+		"dateOfBirth":"1985-12-11",
+		"courses":["CS_020","CS_300"],
+		"attended":false,
 		"attendedAM":false,
 		"attendedPM":false
 	},
 	{ 
-		"id":4,
+		"id":40,
 		"number":102040,
 		"name":"Patricia Lebsack",
 		"email":"Julianne.OConner@kory.org",
+		"dateOfBirth":"1968-08-08",
+		"courses":["CS_001","CS_020","CS_300"],
+		"attended":false,
 		"attendedAM":false,
 		"attendedPM":false
 	},
 	{ 
-		"id":5,
+		"id":50,
 		"number":102050,
 		"name":"Chelsey Dietrich",
 		"email":"Lucio_Hettinger@annie.ca",
+		"dateOfBirth":"1990-01-30",
+		"courses":["CS_020"],
+		"attended":false,
 		"attendedAM":false,
 		"attendedPM":false
 	},
@@ -92,14 +176,31 @@
 		"number":102060,
 		"name":"Cherryl Morris",
 		"email":"cmorris@mee.com",
+		"dateOfBirth":"1989-01-30",
+		"courses":["CS_001","CS_020","CS_300"],
+		"attended":false,
 		"attendedAM":false,
 		"attendedPM":false
 	},
 	{ 
-		"id":7,
+		"id":70,
 		"number":102070,
 		"name":"Ben Smith",
 		"email":"ben.smith@cf.us",
+		"dateOfBirth":"1988-05-24",
+		"courses":["CS_001","CS_020","CS_300"],
+		"attended":false,
+		"attendedAM":false,
+		"attendedPM":false
+	},
+	{ 
+		"id":80,
+		"number":102080,
+		"name":"John Simpson",
+		"email":"js@ooogle.com",
+		"dateOfBirth":"1975-08-01",
+		"courses":[],
+		"attended":false,
 		"attendedAM":false,
 		"attendedPM":false
 	}
