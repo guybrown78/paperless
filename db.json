@@ -172,8 +172,8 @@
       "email":"Sincere@april.biz",
       "dateOfBirth":"1981-02-15",
       "courses":[ 
-        "CS_001",
-        "CS_020"
+        1,
+        2
       ],
       "attended":false,
       "attendedAM":false,
@@ -186,9 +186,9 @@
       "email":"Shanna@melissa.tv",
       "dateOfBirth":"1978-05-24",
       "courses":[ 
-        "CS_001",
-        "CS_020",
-        "CS_300"
+        1,
+        2,
+        3
       ],
       "attended":false,
       "attendedAM":false,
@@ -201,8 +201,8 @@
       "email":"Nathan@yesenia.net",
       "dateOfBirth":"1985-12-11",
       "courses":[ 
-        "CS_020",
-        "CS_300"
+        2,
+        3
       ],
       "attended":false,
       "attendedAM":false,
@@ -215,9 +215,9 @@
       "email":"Julianne.OConner@kory.org",
       "dateOfBirth":"1968-08-08",
       "courses":[ 
-        "CS_001",
-        "CS_020",
-        "CS_300"
+				1,
+        2,
+        3
       ],
       "attended":false,
       "attendedAM":false,
@@ -230,7 +230,7 @@
       "email":"Lucio_Hettinger@annie.ca",
       "dateOfBirth":"1990-01-30",
       "courses":[ 
-        "CS_020"
+        2
       ],
       "attended":false,
       "attendedAM":false,
@@ -243,9 +243,9 @@
       "email":"cmorris@mee.com",
       "dateOfBirth":"1989-01-30",
       "courses":[ 
-        "CS_001",
-        "CS_020",
-        "CS_300"
+        1,
+        2,
+        3
       ],
       "attended":false,
       "attendedAM":false,
@@ -258,9 +258,9 @@
       "email":"ben.smith@cf.us",
       "dateOfBirth":"1988-05-24",
       "courses":[ 
-        "CS_001",
-        "CS_020",
-        "CS_300"
+        1,
+        2,
+        3
       ],
       "attended":false,
       "attendedAM":false,
