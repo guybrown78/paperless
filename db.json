@@ -194,6 +194,40 @@
 
         ]
       }
+		},
+		{ 
+      "id":6,
+      "code":"CS_666",
+      "name":"Course Six",
+      "startDate":"2020-03-25T13:00:00.000Z",
+      "endDate":"2020-03-25T17:00:00.000Z",
+      "state":"live",
+      "duration":{ 
+        "currentDay":0,
+        "days":0.5,
+        "hours":4
+      },
+      "registrationRule":"pm",
+      "delegates":{ 
+        "count":3,
+        "delegateIds":[ 
+          40,
+          60,
+          70
+        ],
+        "attendances":[ 
+          { 
+            "day":1,
+            "registrationComplete":false,
+            "attendees":[ 
+
+            ]
+          }
+        ],
+        "feedback":[ 
+
+        ]
+      }
     }
   ],
   "delegates":[ 
