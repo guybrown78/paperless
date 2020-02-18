@@ -177,7 +177,7 @@
       },
       "registrationRule":"allday",
       "delegates":{ 
-        "count":0,
+        "count":3,
         "delegateIds":[ 
 						10,20,30
         ],
