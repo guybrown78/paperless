@@ -3,7 +3,7 @@
     { 
       "id":1,
       "code":"CS_001",
-      "name":"Course Name",
+      "name":"Course One",
       "startDate":"2020-03-22T09:00:00.000Z",
       "endDate":"2020-03-25T17:15:00.000Z",
       "state":"live",
@@ -98,7 +98,7 @@
     { 
       "id":3,
       "code":"CS_300",
-      "name":"Course Name",
+      "name":"Course Three",
       "startDate":"2020-03-25T09:30:00.000Z",
       "endDate":"2020-03-25T14:00:00.000Z",
       "state":"live",
@@ -134,7 +134,7 @@
     { 
       "id":4,
       "code":"CS_444",
-      "name":"Course Name",
+      "name":"Course Four",
       "startDate":"2020-03-24T08:45:00.000Z",
       "endDate":"2020-03-24T18:00:00.000Z",
       "state":"live",
@@ -148,6 +148,38 @@
         "count":0,
         "delegateIds":[ 
 
+        ],
+        "attendances":[ 
+          { 
+            "day":1,
+            "registrationComplete":false,
+            "attendees":[ 
+
+            ]
+          }
+        ],
+        "feedback":[ 
+
+        ]
+      }
+		},
+		{ 
+      "id":4,
+      "code":"CS_504",
+      "name":"Course Five",
+      "startDate":"2020-03-24T08:45:00.000Z",
+      "endDate":"2020-03-24T18:00:00.000Z",
+      "state":"live",
+      "duration":{ 
+        "currentDay":0,
+        "days":1,
+        "hours":null
+      },
+      "registrationRule":"allday",
+      "delegates":{ 
+        "count":0,
+        "delegateIds":[ 
+						10,20,30
         ],
         "attendances":[ 
           { 
