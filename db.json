@@ -1,5 +1,5 @@
 {
-	"CS_001":	{
+	"course-1":	{
 		"count":5,
 		"delegateIds":[10, 20, 40, 60, 70],
 		"attendances":[
