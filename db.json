@@ -234,116 +234,108 @@
     { 
       "id":10,
       "number":102010,
-      "name":"Leanne Graham",
+			"name":"Leanne Graham",
+			"firstName":"Leanne",
+			"lastName":"Graham",
       "email":"Sincere@april.biz",
       "dateOfBirth":"1981-02-15",
       "courses":[ 
         1,
         2
-      ],
-      "attended":false,
-      "attendedAM":false,
-      "attendedPM":false
+      ]
     },
     { 
       "id":20,
       "number":102020,
-      "name":"Ervin Howell",
+			"name":"Ervin Howell",
+			"firstName":"Ervin",
+			"lastName":"Howell",
       "email":"Shanna@melissa.tv",
       "dateOfBirth":"1978-05-24",
       "courses":[ 
         1,
         2,
         3
-      ],
-      "attended":false,
-      "attendedAM":false,
-      "attendedPM":false
+      ]
     },
     { 
       "id":30,
       "number":102030,
-      "name":"Clementine Bauch",
+			"name":"Clementine Bauch",
+			"firstName":"Clementine",
+			"lastName":"Bauch",
       "email":"Nathan@yesenia.net",
       "dateOfBirth":"1985-12-11",
       "courses":[ 
         2,
         3
-      ],
-      "attended":false,
-      "attendedAM":false,
-      "attendedPM":false
+      ]
     },
     { 
       "id":40,
       "number":102040,
-      "name":"Patricia Lebsack",
+			"name":"Patricia Lebsack",
+			"firstName":"Patrica",
+			"lastName":"Lebsack",
       "email":"Julianne.OConner@kory.org",
       "dateOfBirth":"1968-08-08",
       "courses":[ 
 				1,
         2,
         3
-      ],
-      "attended":false,
-      "attendedAM":false,
-      "attendedPM":false
+      ]
     },
     { 
       "id":50,
       "number":102050,
-      "name":"Chelsey Dietrich",
+			"name":"Chelsey Dietrich",
+			"firstName":"Chelsey",
+			"lastName":"Dietrich",
       "email":"Lucio_Hettinger@annie.ca",
       "dateOfBirth":"1990-01-30",
       "courses":[ 
         2
-      ],
-      "attended":false,
-      "attendedAM":false,
-      "attendedPM":false
+      ]
     },
     { 
       "id":60,
       "number":102060,
-      "name":"Cherryl Morris",
+			"name":"Cherryl Morris",
+			"firstName":"Cherryl",
+			"lastName":"Morris",
       "email":"cmorris@mee.com",
       "dateOfBirth":"1989-01-30",
       "courses":[ 
         1,
         2,
         3
-      ],
-      "attended":false,
-      "attendedAM":false,
-      "attendedPM":false
+      ]
     },
     { 
       "id":70,
       "number":102070,
-      "name":"Ben Smith",
+			"name":"Ben Smith",
+			"firstName":"Ben",
+			"lastName":"Smith",
       "email":"ben.smith@cf.us",
       "dateOfBirth":"1988-05-24",
       "courses":[ 
         1,
         2,
         3
-      ],
-      "attended":false,
-      "attendedAM":false,
-      "attendedPM":false
+      ]
     },
     { 
       "id":80,
       "number":102080,
-      "name":"John Simpson",
+			"name":"John Simpson",
+			"firstName":"John",
+			"lastName":"Simpson",
       "email":"js@ooogle.com",
       "dateOfBirth":"1975-08-01",
       "courses":[ 
 
-      ],
-      "attended":false,
-      "attendedAM":false,
-      "attendedPM":false
+      ]
     }
   ]
 }
