@@ -21,6 +21,12 @@
           40,
           60,
           70
+				],
+				"registeredDelegateIds":[ 
+          10,
+          40,
+          60,
+          70
         ],
         "attendances":[ 
           { 
@@ -73,6 +79,14 @@
           50,
           60,
           70
+				],
+				"registeredDelegateIds":[ 
+          10,
+          20,
+          30,
+          40,
+          50,
+          70
         ],
         "attendances":[ 
           { 
@@ -116,6 +130,11 @@
           40,
           60,
           70
+				],
+				"registeredDelegateIds":[ 
+          20,
+          30,
+          40
         ],
         "attendances":[ 
           { 
@@ -148,6 +167,9 @@
         "count":0,
         "delegateIds":[ 
 
+				],
+				"registeredDelegateIds":[ 
+   
         ],
         "attendances":[ 
           { 
@@ -211,6 +233,11 @@
       "delegates":{ 
         "count":3,
         "delegateIds":[ 
+          40,
+          60,
+          70
+				],
+				"registeredDelegateIds":[ 
           40,
           60,
           70
