@@ -3,7 +3,7 @@
     { 
       "id":1,
       "code":"CS_001",
-      "name":"Course One",
+      "name":"Cold Water Survival",
       "startDate":"2020-03-22T09:00:00.000Z",
       "endDate":"2020-03-25T17:15:00.000Z",
       "state":"live",
@@ -54,7 +54,10 @@
         "feedback":[ 
 
         ]
-      }
+			},
+			"location":{
+				"delegateInstructions":"Please proceed to the changing areas to get measurements taken for Cold Water Survival"
+			}
     },
     { 
       "id":2,
@@ -107,7 +110,10 @@
         "feedback":[ 
 
         ]
-      }
+			},
+			"location":{
+				"delegateInstructions":"Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+			}
     },
     { 
       "id":3,
@@ -148,7 +154,10 @@
         "feedback":[ 
 
         ]
-      }
+			},
+			"location":{
+				"delegateInstructions":"Please go thought to the cafe area through the double doors"
+			}
     },
     { 
       "id":4,
@@ -183,7 +192,10 @@
         "feedback":[ 
 
         ]
-      }
+      },
+			"location":{
+				"delegateInstructions":"Please go thought to the cafe area through the double doors"
+			}
 		},
 		{ 
       "id":5,
@@ -215,7 +227,10 @@
         "feedback":[ 
 
         ]
-      }
+      },
+			"location":{
+				"delegateInstructions":"Please go thought to the cafe area through the double doors"
+			}
 		},
 		{ 
       "id":6,
@@ -254,7 +269,10 @@
         "feedback":[ 
 
         ]
-      }
+      },
+			"location":{
+				"delegateInstructions":"Proceed to Cafe to be called for Course Six"
+			}
     }
   ],
   "delegates":[ 
