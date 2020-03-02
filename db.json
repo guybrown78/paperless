@@ -280,14 +280,39 @@
       "id":10,
       "number":102010,
 			"name":"Leanne Graham",
-			"firstName":"Leanne",
-			"lastName":"Graham",
-      "email":"Sincere@april.biz",
       "dateOfBirth":"1981-02-15",
-      "courses":[ 
-        1,
-        2
-      ]
+      "bookings":[
+				{
+        "bookingId":100,
+   			"registered":false,
+   			"course":{
+					"name": "Cold Water Survival",
+					"duration": {
+						"currentDay": 2,
+						"days": 3,
+						"hours": null
+						},
+					"location": {
+						"delegateInstructions": "Please proceed to the changing areas to get measurements taken for Cold Water Survival"
+						}
+				 }
+				},
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				}
+			]
     },
     { 
       "id":20,
@@ -297,11 +322,53 @@
 			"lastName":"Howell",
       "email":"Shanna@melissa.tv",
       "dateOfBirth":"1978-05-24",
-      "courses":[ 
-        1,
-        2,
-        3
-      ]
+      "bookings":[
+				{
+        "bookingId":100,
+   			"registered":false,
+   			"course":{
+					"name": "Cold Water Survival",
+					"duration": {
+						"currentDay": 2,
+						"days": 3,
+						"hours": null
+						},
+					"location": {
+						"delegateInstructions": "Please proceed to the changing areas to get measurements taken for Cold Water Survival"
+						}
+				 }
+				},
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				},
+				{
+					"bookingId":300,
+					 "registered":false,
+					 "course":{
+						"name": "Course Three",
+						"duration": {
+							"currentDay": 0,
+							"days": 0.5,
+							"hours": 4.5
+							},
+						"location": {
+							"delegateInstructions": "Please go thought to the cafe area through the double doors"
+							}
+					 }
+				}
+			]
     },
     { 
       "id":30,
@@ -311,10 +378,38 @@
 			"lastName":"Bauch",
       "email":"Nathan@yesenia.net",
       "dateOfBirth":"1985-12-11",
-      "courses":[ 
-        2,
-        3
-      ]
+      "bookings":[
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				},
+				{
+					"bookingId":300,
+					 "registered":false,
+					 "course":{
+						"name": "Course Three",
+						"duration": {
+							"currentDay": 0,
+							"days": 0.5,
+							"hours": 4.5
+							},
+						"location": {
+							"delegateInstructions": "Please go thought to the cafe area through the double doors"
+							}
+					 }
+				}
+			]
     },
     { 
       "id":40,
@@ -324,11 +419,53 @@
 			"lastName":"Lebsack",
       "email":"Julianne.OConner@kory.org",
       "dateOfBirth":"1968-08-08",
-      "courses":[ 
-				1,
-        2,
-        3
-      ]
+      "bookings":[
+				{
+        "bookingId":100,
+   			"registered":false,
+   			"course":{
+					"name": "Cold Water Survival",
+					"duration": {
+						"currentDay": 2,
+						"days": 3,
+						"hours": null
+						},
+					"location": {
+						"delegateInstructions": "Please proceed to the changing areas to get measurements taken for Cold Water Survival"
+						}
+				 }
+				},
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				},
+				{
+					"bookingId":300,
+					 "registered":false,
+					 "course":{
+						"name": "Course Three",
+						"duration": {
+							"currentDay": 0,
+							"days": 0.5,
+							"hours": 4.5
+							},
+						"location": {
+							"delegateInstructions": "Please go thought to the cafe area through the double doors"
+							}
+					 }
+				}
+			]
     },
     { 
       "id":50,
@@ -338,9 +475,23 @@
 			"lastName":"Dietrich",
       "email":"Lucio_Hettinger@annie.ca",
       "dateOfBirth":"1990-01-30",
-      "courses":[ 
-        2
-      ]
+      "bookings":[
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				}
+			]
     },
     { 
       "id":60,
@@ -350,11 +501,53 @@
 			"lastName":"Morris",
       "email":"cmorris@mee.com",
       "dateOfBirth":"1989-01-30",
-      "courses":[ 
-        1,
-        2,
-        3
-      ]
+      "bookings":[
+				{
+        "bookingId":100,
+   			"registered":false,
+   			"course":{
+					"name": "Cold Water Survival",
+					"duration": {
+						"currentDay": 2,
+						"days": 3,
+						"hours": null
+						},
+					"location": {
+						"delegateInstructions": "Please proceed to the changing areas to get measurements taken for Cold Water Survival"
+						}
+				 }
+				},
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				},
+				{
+					"bookingId":300,
+					 "registered":false,
+					 "course":{
+						"name": "Course Three",
+						"duration": {
+							"currentDay": 0,
+							"days": 0.5,
+							"hours": 4.5
+							},
+						"location": {
+							"delegateInstructions": "Please go thought to the cafe area through the double doors"
+							}
+					 }
+				}
+			]
     },
     { 
       "id":70,
@@ -364,46 +557,152 @@
 			"lastName":"Smith",
       "email":"ben.smith@cf.us",
       "dateOfBirth":"1988-05-24",
-      "courses":[ 
-        1,
-        2,
-        3
-      ]
+      "bookings":[
+				{
+        "bookingId":100,
+   			"registered":false,
+   			"course":{
+					"name": "Cold Water Survival",
+					"duration": {
+						"currentDay": 2,
+						"days": 3,
+						"hours": null
+						},
+					"location": {
+						"delegateInstructions": "Please proceed to the changing areas to get measurements taken for Cold Water Survival"
+						}
+				 }
+				},
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				},
+				{
+					"bookingId":300,
+					 "registered":false,
+					 "course":{
+						"name": "Course Three",
+						"duration": {
+							"currentDay": 0,
+							"days": 0.5,
+							"hours": 4.5
+							},
+						"location": {
+							"delegateInstructions": "Please go thought to the cafe area through the double doors"
+							}
+					 }
+				}
+			]
     },
     { 
       "id":80,
       "number":102080,
 			"name":"John Simpson",
       "dateOfBirth":"1975-08-01",
-      "courses":[]
+      "bookings":[]
 		},
 		{ 
       "id":90,
       "number":102090,
 			"name":"John Smith",
       "dateOfBirth":"1971-08-08",
-      "courses":[2]
+      "bookings":[
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				}
+			]
 		},
 		{ 
       "id":100,
       "number":102100,
 			"name":"Waylon Smithers",
       "dateOfBirth":"1951-12-25",
-      "courses":[2]
+      "bookings":[
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				}
+			]
 		},
 		{ 
       "id":110,
       "number":102110,
 			"name":"Carl Carlson",
       "dateOfBirth":"1964-08-08",
-      "courses":[2]
+      "bookings":[
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				}
+			]
 		},
 		{ 
       "id":120,
       "number":102120,
 			"name":"Lenny Leonard",
       "dateOfBirth":"1964-08-08",
-      "courses":[2]
+      "bookings":[
+				{
+					"bookingId":200,
+					 "registered":false,
+					 "course":{
+						"name": "Optito Bosiet with CA-EBS",
+						"duration": {
+							"currentDay": 1,
+							"days": 2,
+							"hours": null
+							},
+						"location": {
+							"delegateInstructions": "Proceed to Cafe to be called for Optito Bosiet with CA-EBS"
+							}
+					 }
+				}
+			]
     }
   ]
 }
