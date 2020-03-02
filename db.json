@@ -318,9 +318,6 @@
       "id":20,
       "number":102020,
 			"name":"Ervin Howell",
-			"firstName":"Ervin",
-			"lastName":"Howell",
-      "email":"Shanna@melissa.tv",
       "dateOfBirth":"1978-05-24",
       "bookings":[
 				{
@@ -374,9 +371,6 @@
       "id":30,
       "number":102030,
 			"name":"Clementine Bauch",
-			"firstName":"Clementine",
-			"lastName":"Bauch",
-      "email":"Nathan@yesenia.net",
       "dateOfBirth":"1985-12-11",
       "bookings":[
 				{
@@ -415,9 +409,6 @@
       "id":40,
       "number":102040,
 			"name":"Patricia Lebsack",
-			"firstName":"Patrica",
-			"lastName":"Lebsack",
-      "email":"Julianne.OConner@kory.org",
       "dateOfBirth":"1968-08-08",
       "bookings":[
 				{
@@ -471,9 +462,6 @@
       "id":50,
       "number":102050,
 			"name":"Chelsey Dietrich",
-			"firstName":"Chelsey",
-			"lastName":"Dietrich",
-      "email":"Lucio_Hettinger@annie.ca",
       "dateOfBirth":"1990-01-30",
       "bookings":[
 				{
@@ -497,9 +485,6 @@
       "id":60,
       "number":102060,
 			"name":"Cherryl Morris",
-			"firstName":"Cherryl",
-			"lastName":"Morris",
-      "email":"cmorris@mee.com",
       "dateOfBirth":"1989-01-30",
       "bookings":[
 				{
@@ -553,9 +538,6 @@
       "id":70,
       "number":102070,
 			"name":"Ben Smith",
-			"firstName":"Ben",
-			"lastName":"Smith",
-      "email":"ben.smith@cf.us",
       "dateOfBirth":"1988-05-24",
       "bookings":[
 				{
