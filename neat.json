@@ -575,7 +575,7 @@
           "bookingId":150,
           "provenIdentity":false,
           "registered":false,
-          "company":"Acme corporation",
+          "company":"self funder",
           "course":{
             "name":"Cold Water Survival",
             "duration":{
